@@ -1,0 +1,66 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size:3.8rem;
+}
+h2{
+    font-size: 3.4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2.6rem;
+}
+p{
+    font-size: 1.8rem;
+    color: rgb(49, 49, 49);
+}
+
+/*UTILIDADES */
+.titulos{
+    color: #B57312;
+}
+/* Header */
+.navegacion{
+    border-bottom: 3px solid #B57312;
+}
+.introduccion{
+    background-color: #EFAD45;   
+}
+.introduccion p {
+    color: #ffffff;
+    text-align: justify;
+}
+.cabecera-estatica{
+    height: 25rem;
+}
+.video{
+    max-width: 100%;
+    height: auto;
+}
+  @media(max-width:480px){
+      .parallax-container{
+          display:none
+      }
+      .introduccion{
+          margin-top: -12rem;
+      }
+  }
+  @media(min-width:480px){
+    .cabecera-estatica{
+        display:none;
+        margin-bottom:;
+    }
+    .video{
+        height: 50rem;
+    }
+}
